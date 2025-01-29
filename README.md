@@ -234,7 +234,7 @@ pipeline {
             steps{
                 script{
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){   
-                       sh "docker build --build-arg TMDB_V3_API_KEY=c6698ee690068684ec9c8a8f20b0d7a7 -t Netflix ."
+                       sh "docker build --build-arg TMDB_V3_API_KEY=<api_key> -t Netflix ."
                        sh "docker tag Netflix luvisjostonj/Netflix:latest "
                        sh "docker push luvisjostonj/Netflix:latest "
                     }
@@ -355,7 +355,7 @@ pipeline {
             steps{
                 script{
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){   
-                       sh "docker build --build-arg TMDB_V3_API_KEY=c6698ee690068684ec9c8a8f20b0d7a7 -t Netflix ."
+                       sh "docker build --build-arg TMDB_V3_API_KEY=<api_key> -t Netflix ."
                        sh "docker tag Netflix luvisjostonj/Netflix:latest "
                        sh "docker push luvisjostonj/Netflix:latest "
                     }
