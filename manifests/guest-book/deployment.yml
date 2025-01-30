@@ -1,0 +1,31 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: mydep
+spec: 
+  replicas: 3
+  selector: 
+    matchLabels:
+      jos: luv
+  template:
+   metadata:
+      name: jos
+      labels:
+        jos: luv
+   spec:
+     containers:
+       - name: c1
+         image: luvisjostonj/netflix:v1
+---
+kind: Service
+apiVersion: v1
+metadata: 
+ name: mysvc
+spec:
+ type: NodePort
+ ports:
+     - targetPort: 80
+       port: 80
+       nodePort: 30001
+ selector:
+    jos: luv 
