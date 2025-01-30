@@ -3,7 +3,8 @@
 ![Screenshot 2025-01-30 114408](https://github.com/user-attachments/assets/953c3c2c-fa27-474f-bfef-0f6e17bd60a9)
 <br>
 ![Screenshot 2025-01-30 114419](https://github.com/user-attachments/assets/96a76c28-3001-4fc4-80ef-0b9ad166145f)
-
+<br>
+![Screenshot 2025-01-30 115855](https://github.com/user-attachments/assets/92e59a95-805b-4e00-8fa9-1fcf46e10274)
 
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
 
