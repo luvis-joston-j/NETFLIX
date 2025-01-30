@@ -8,11 +8,10 @@
 </div>
 
 <br />
+![image](https://github.com/user-attachments/assets/a84263b9-bfe7-49d2-bd3c-00bc3a88b1e5)
+<br>
+![image](https://github.com/user-attachments/assets/e3791fde-671e-49ff-be44-85654bdc09e3)
 
-<div align="center">
-  <img src="./public/assets/home-page.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
-</div>
 
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
 
